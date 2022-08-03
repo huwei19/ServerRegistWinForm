@@ -335,6 +335,7 @@ namespace ServerRegistWinForm
 
         /// <summary>
         /// 根据服务器id, 计算对应的注册权重 regRate 
+        /// 参考: readme\跨服中角色分配逻辑.txt
         /// </summary>
         /// <param name="serverID"></param>
         /// <returns></returns>
