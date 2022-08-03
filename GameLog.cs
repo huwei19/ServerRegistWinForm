@@ -70,7 +70,7 @@ namespace ServerRegistWinForm
                 Directory.CreateDirectory("log");
             }
 
-            _log_file_path = string.Format("log/Log_{1}.log", AppDomain.CurrentDomain.BaseDirectory, DateTime.Now.ToString("yyyyMMdd"));
+            _log_file_path = string.Format("./log/format_{1}.log", AppDomain.CurrentDomain.BaseDirectory, DateTime.Now.ToString("yyyyMMdd"));
             CheckLogFile(_log_file_path);
 
             _is_inited = true;
@@ -89,7 +89,7 @@ namespace ServerRegistWinForm
             {
                 Directory.CreateDirectory("log");
             }
-            _log_file_path = string.Format("log/Log_{1}.log", AppDomain.CurrentDomain.BaseDirectory, DateTime.Now.ToString("yyyyMMdd"));
+            _log_file_path = string.Format("log/format_{1}.log", AppDomain.CurrentDomain.BaseDirectory, DateTime.Now.ToString("yyyyMMdd"));
         }
         #endregion 
 

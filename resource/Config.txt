@@ -1,5 +1,0 @@
-Id	AddRegNum	AddLoginNum	DelLoginNum	SyncTime	QueueMaxLimit	LoginConfirmDeLay
-INT	INT	INT	INT	INT	INT	INT
-#MAX_ID=89999;MAX_RECORD=70000;TableType=Hash;ProjectActive0=_WORLDSERVER_;ProjectActive1=_HTTPAGENT_;ProjectActive2=_DBAGENT_;ProjectActive3=_GMSERVER_;						
-#ID仅取第一个大于零的数字行	每秒新增注册人数	每秒单服登录数	每秒单服登出数	服务器数据同步频率(单位秒)	单服排队上限人数	登录确认延时(暂时无效，后续添加功能)
-1	50	100	20	3	1000	5
